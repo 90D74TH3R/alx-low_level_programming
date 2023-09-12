@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * print_to_98 - print a program to 98
- * @n: the number to start printing
+ * print_to_98 - print all numbers from n to 98
+ * @n: the number to start printing from
  * Return: Always 0
  */
 
