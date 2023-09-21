@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncpy - The main function of the code 
+ * _strncpy - The main function of the code
  * @src: Function parameter
  * @dest: Function parameter
  * @n: Function parameter
@@ -16,7 +16,8 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		dest[k] = src[k];
 		k++;
-	} while (k < n) {
+	} while (k < n)
+	{
 		dest[k] = '\0';
 		k++;
 	}
