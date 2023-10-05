@@ -1,8 +1,6 @@
 #include <stdlib.h>
 #include "main.h"
 
-
-
 /**
  * *string_nconcat - concatenates n bytes of a string to another string
 
@@ -32,8 +30,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (s2 && s2[len2])
 
 		len2++;
-
-
 
 	if (n < len2)
 
